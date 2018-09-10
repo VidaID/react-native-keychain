@@ -14,6 +14,4 @@ Pod::Spec.new do |s|
   s.source         = { :git => "https://github.com/oblador/react-native-keychain.git", :tag => "v#{s.version}" }
   s.source_files   = 'RNKeychainManager/**/*.{h,m}'
   s.preserve_paths = "**/*.js"
-  s.dependency 'React'
-
 end
